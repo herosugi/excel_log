@@ -42,9 +42,10 @@ current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-4]
 ```
 
 # サンプルプログラム
-テスト投稿用Pythonプログラムファイルを使ってExcelにログするコマンドの説明をします。
+テスト投稿用Pythonプログラムexcel_test.pyファイルを使ってExcelにログするコマンドの説明をします。
 
 ## ライブラリー
+同じフォルダーにある状態での説明です。
 ファイル名：excel_log
 クラス名：ExcelLogger
 ```
