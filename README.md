@@ -20,6 +20,7 @@ log_filename="work_log.xlsx"
 def __init__(self, log_dir="C:\\excel_log", log_filename="work_log.xlsx", headers=None):
 ```
 ### シート名とヘッダー名
+複数のシートにログする場合の説明です。
 ```
         self.headers = headers if headers is not None else  {
             "Sheet1": ["Datetime", "Header 1", "Header 2", "Header 3", "Header 4", "Header 5"],
