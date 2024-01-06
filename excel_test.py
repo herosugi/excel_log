@@ -7,11 +7,11 @@ logger = ExcelLogger(log_dir="C:\\excel_log", log_filename="your_log_file.xlsx")
 
 # ログとして記録するデータ
 data_to_log = {
-    "F_name": "Example",
-    "Filename": "example.txt",
-    "Datetime": "2024-01-05 12:00",
-    "Action": "Create",
-    "Data": "Sample data"
+    "Header 1": "xxxx",
+    "Header 2": "oooo",
+    "Header 3": "oxoxo",
+    "Header 4": "□□□□",
+    "Header 5": "xxxxx"
 }
 
 # データをExcelファイルにログとして記録
